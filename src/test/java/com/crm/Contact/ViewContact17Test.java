@@ -33,7 +33,7 @@ public class ViewContact17Test extends BaseClass {
 	@Test(groups="smokeTest")
 	public void View17() {
 		
-		// click on the Contact link
+		
 		 ContactHomePage chpage=new ContactHomePage(driver);
 		 chpage.ClickonContactPage();
 		 // select one contact and click the contactname
