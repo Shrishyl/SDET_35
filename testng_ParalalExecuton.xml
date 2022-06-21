@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+  <test thread-count="4" parallel="classes" name="Test1">
+    <classes>
+      <class name="com.crm.Contact.CreateContactTest"/>
+      <class name="com.crm.Contact.ViewContact17Test"/>
+      <class name="Com.crm.contct.EditeContactAndVerifyTest"/>
+      <class name="Com.crm.contct.ViewContactTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
