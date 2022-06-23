@@ -28,7 +28,7 @@ public class CreateOrganizationAndVerifyTest extends BaseClass {
 	@Test
 	public void CreateOrgTest() {
 		//hi
-		// random number for the test script
+		// random number 
 		int ranNum = jLib.getRandomNUmber();
 		
 		// click enter the username &password and click on login button
