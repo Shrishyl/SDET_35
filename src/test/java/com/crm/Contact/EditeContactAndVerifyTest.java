@@ -14,7 +14,7 @@ public class EditeContactAndVerifyTest extends BaseClass {
 	@Test(groups="regressionTest")
 	public void EditContact() {
 		
-//hi
+
 
 		// 2 click on contact page 
 		ContactHomePage cpage=new ContactHomePage(driver);
