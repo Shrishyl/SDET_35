@@ -17,7 +17,7 @@ public class CreateContactTest extends BaseClass {
 	public void CreateContact() throws Throwable {
 		int randum = jLib.getRandomNUmber();
 
-		// hi
+		// bye bye
 		HomePage hpage =new HomePage(driver);
 		hpage.getContactsLnk().click();
 
