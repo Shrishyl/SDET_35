@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-21T11:27:45 IST" name="Default suite" finished-at="2022-06-21T11:28:20 IST" duration-ms="35421">
+    <groups>
+    </groups>
+    <test started-at="2022-06-21T11:27:45 IST" name="Default test" finished-at="2022-06-21T11:28:20 IST" duration-ms="35421">
+      <class name="com.crrm.Contact.CreateProduct">
+        <test-method is-config="true" signature="dbconfig()[pri:0, instance:com.crrm.Contact.CreateProduct@3f6b0be5]" started-at="2022-06-21T11:27:45 IST" name="dbconfig" finished-at="2022-06-21T11:27:45 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbconfig -->
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crrm.Contact.CreateProduct@3f6b0be5]" started-at="2022-06-21T11:27:45 IST" name="launchTheBrowser" finished-at="2022-06-21T11:27:59 IST" duration-ms="13884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="LoginToApp()[pri:0, instance:com.crrm.Contact.CreateProduct@3f6b0be5]" started-at="2022-06-21T11:27:59 IST" name="LoginToApp" finished-at="2022-06-21T11:28:04 IST" duration-ms="5540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApp -->
+        <test-method signature="CreateProductTest()[pri:0, instance:com.crrm.Contact.CreateProduct@3f6b0be5]" started-at="2022-06-21T11:28:04 IST" name="CreateProductTest" finished-at="2022-06-21T11:28:18 IST" duration-ms="13601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateProductTest -->
+        <test-method is-config="true" signature="LogoutToApp()[pri:0, instance:com.crrm.Contact.CreateProduct@3f6b0be5]" started-at="2022-06-21T11:28:18 IST" name="LogoutToApp" finished-at="2022-06-21T11:28:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutToApp -->
+        <test-method is-config="true" signature="CloseTheBrowser()[pri:0, instance:com.crrm.Contact.CreateProduct@3f6b0be5]" started-at="2022-06-21T11:28:18 IST" name="CloseTheBrowser" finished-at="2022-06-21T11:28:20 IST" duration-ms="2323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTheBrowser -->
+        <test-method is-config="true" signature="CloseDb()[pri:0, instance:com.crrm.Contact.CreateProduct@3f6b0be5]" started-at="2022-06-21T11:28:20 IST" name="CloseDb" finished-at="2022-06-21T11:28:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDb -->
+      </class> <!-- com.crrm.Contact.CreateProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
