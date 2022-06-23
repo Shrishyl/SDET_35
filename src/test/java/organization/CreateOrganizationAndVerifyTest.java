@@ -28,7 +28,7 @@ public class CreateOrganizationAndVerifyTest extends BaseClass {
 	@Test
 	public void CreateOrgTest() throws Throwable {
 		
-		// get ran
+		// get 
 		int ranNum = jLib.getRandomNUmber();
 		
 		// click enter the username &password and click on login button
