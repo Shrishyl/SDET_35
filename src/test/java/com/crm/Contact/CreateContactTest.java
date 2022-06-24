@@ -1,6 +1,10 @@
 package com.crm.Contact;
 
+import static org.testng.Assert.fail;
+
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.ObjectRepository.ContactPage;
@@ -10,7 +14,7 @@ import com.crm.ObjectRepository.HomePage;
 import com.crm.ObjectRepository.LoginPage;
 
 import genaricsUtilities.BaseClass;
-
+@Listeners(genaricsUtilities.ComcrmITestListner.class)
 public class CreateContactTest extends BaseClass {
 
 	@Test
@@ -32,7 +36,7 @@ public class CreateContactTest extends BaseClass {
 
 		//enter the firstname &last name contact select the Leedsource dropdown and click on the save button
 		CreatingNewContactingPage cnpage=new CreatingNewContactingPage(driver);
-		
+		Assert.fail();
 		cnpage.getFirstNameTextEdit().sendKeys(fname) ;
 		cnpage.getLastNameTextEdit().sendKeys(lname);
 		cnpage.Leaddropdown();
