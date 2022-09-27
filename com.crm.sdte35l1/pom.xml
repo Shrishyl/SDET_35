@@ -45,8 +45,8 @@
 </dependency>
   </dependencies>
   
- <!-- <profiles>
-  <profile>
+ <profiles>
+  <!-- <profile>
   <id> ParallelID</id>
   <build>
       <plugins>
