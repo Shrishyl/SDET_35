@@ -3,12 +3,12 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.crm.Contact.CreateContactTest"/>
-     <!-- <class name="organization.CreateOrganizationAndVerifyTest1"/>
+     <!-- <class name="com.crm.Contact.CreateContactTest"/>
+      <class name="organization.CreateOrganizationAndVerifyTest1"/>
       <class name="com.crm.Contact.EditeContactAndVerifyTest"/>
       <class name="com.crm.Contact.ViewContact17Test"/>
-      <class name="organization.CreateOrganizationAndVerifyTest"/>
-      <class name="com.crm.Contact.ViewContactTest"/> -->
+      <class name="organization.CreateOrganizationAndVerifyTest"/> -->
+      <class name="com.crm.Contact.ViewContactTest"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
