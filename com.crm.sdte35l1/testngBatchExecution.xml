@@ -4,8 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.crrm.Contact.CreateContactTest"/>
-     <class name="com.crrm.Contact.CreateDocumentTest"/>
-      <class name="com.crrm.Contact.CreateProductTest"/>
+    <!-- <class name="com.crrm.Contact.CreateDocumentTest"/>
+      <class name="com.crrm.Contact.CreateProductTest"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
